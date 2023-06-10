@@ -1,0 +1,53 @@
+/* CSS Reset */
+
+/* Box sizing border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote,
+figure,
+figcaption,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles (bullet points) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Set default font size and line height */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #d1d1d1d2;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Remove default hyperlink styles */
+a {
+  text-decoration: none;
+}
+
+/* Remove outline on focused elements */
+:focus {
+  outline: none;
+}

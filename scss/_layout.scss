@@ -1,0 +1,90 @@
+.notification-component{
+    max-width: 750px;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 2px 10px 10px rgba(153, 142, 142, 0.993);
+    
+    .notification-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 15px;
+
+    div{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        h2{
+            font-size: 20px;
+        }
+
+        .count-wrapper{
+            background-color: rgb(11, 145, 145);
+            width: 25px;
+            height: 25px; 
+            border-radius: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+                
+            #notification-count{
+                font-weight: 700;
+                color: white;
+                padding-bottom: 2px;
+        }
+        }
+
+        
+    }
+    
+    h3{
+            font-size: 14px;
+            cursor: pointer;
+
+            &:hover{
+                color: teal;
+            }
+        }
+}
+
+#notification-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    img{
+        max-width: 40px;
+        border-radius: 30%;
+    }
+
+    .notification{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-inline: 30px;
+        font-size: 14px;
+        gap: 10px;
+        padding: 10px;
+
+        .name{
+            font-weight: 700;
+        }
+
+        .reference{
+            font-weight: 600;
+            color: rgb(58, 58, 58);
+        }
+
+        
+    }
+
+    .unread{
+            background-color: rgba(54, 182, 241, 0.103);
+        }
+}
+
+}
+
+
+
